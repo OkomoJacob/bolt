@@ -1,5 +1,5 @@
 import React from 'react'
-import { FlatList, Text, TouchableOpacity, View } from 'react-native'
+import { FlatList, Image, Text, TouchableOpacity, View } from 'react-native'
 
 const data = [
     {
@@ -21,9 +21,17 @@ const NavOptions = () => {
         <FlatList
             data={data}
             horizontal
+            //Add key to tell react what specifically to render when asked to
+            keyExtractor = {(item) => item.id}
             renderItem={({ item }) => (
+                // Opacity changes on touch
                 <TouchableOpacity>
-                    <Text>{item.title}</Text>
+                    <View>
+                        <Image
+                            style={{ width: 120, height: 120, resizeMode: "contain"}}
+                            source={{ uri: item.image }}
+                        />
+                    </View>
                 </TouchableOpacity>
             )}
       />
@@ -31,4 +39,3 @@ const NavOptions = () => {
 }
 
 export default NavOptions
-
