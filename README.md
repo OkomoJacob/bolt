@@ -3,9 +3,10 @@
 #### Time estimate
 1. 8 hours
 2. 3:30 mins
-3. 8:00 to 
+3. 8:00 to 18:30
+4. 8:00 to 17:52
 
-3. React
+5. React
 4. React Native 
 5. React Native Elements
 6. React Naviagation
