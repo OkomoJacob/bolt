@@ -1,3 +1,4 @@
 #Causing me internal server issues
 node_modules/
 .vscode
+.expo
