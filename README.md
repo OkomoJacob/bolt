@@ -33,6 +33,9 @@ yarn add @reduxjs/toolkit
 
 1. [React Native Elements](https://reactnativeelements.com/) You can source your [icons ](https://ant.design/components/icon/) in the icons sections
 2. [React Native Navigation](https://reactnavigation.org/)
+3. [Expo](https://docs.expo.dev/)
+4. [Installing the native stack navigator library](https://reactnavigation.org/docs/hello-react-navigation) To navigate through various screens
+5. 
 
 
 
